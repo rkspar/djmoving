@@ -1,0 +1,18 @@
+@charset "UTF-8";
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../img/Fullscreen_Baroque.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.Contain_1-2 {
+	background-color:#FFF;
+	height: 100%;
+	width: 600px;
+	margin-top: 50px;
+
+}

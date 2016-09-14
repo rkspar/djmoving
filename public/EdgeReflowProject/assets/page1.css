@@ -1,0 +1,141 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 90%;
+}
+
+#box {
+    float: left;
+    height: 1080px;
+    margin-left: 0%;
+    margin-top: 42px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/Fullscreen_Baroque.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box1 {
+    float: none;
+    height: 648px;
+    margin-left: auto;
+    margin-top: 130px;
+    clear: none;
+    width: 684.15625px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 0px;
+    border-style: solid;
+    background-image:-webkit-linear-gradient(270deg,white 0%,rgb(255,255,255) 100%);
+    background-attachment: scroll;
+    background-size: auto;
+    opacity: 0.93;
+    margin-right: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box2 {
+    float: none;
+    height: 241.28125px;
+    margin-left: auto;
+    margin-top: 11px;
+    clear: none;
+    width: 64.610362%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.059678%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 2224px) {
+   #box {
+        float: left;
+        height: 1080px;
+        margin-left: 0%;
+        margin-top: 42px;
+        clear: none;
+        width: 100%;
+        background-image:url("img/Fullscreen_Baroque.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 0%;
+        background-repeat: no-repeat no-repeat;
+   }
+
+   .primaryContainer {
+        width: 90%;
+   }
+
+   #box1 {
+        float: none;
+        height: 648px;
+        margin-left: auto;
+        margin-top: 130px;
+        clear: none;
+        width: 684.15625px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-style: solid;
+        background-image:-webkit-linear-gradient(270deg,white 0%,rgb(255,255,255) 100%);
+        background-attachment: scroll;
+        background-size: auto;
+        border-width: 0px;
+        opacity: 0.93;
+        margin-right: auto;
+        background-position: 0% 0%;
+        background-repeat: repeat repeat;
+   }
+
+   #box2 {
+        float: none;
+        height: 241.28125px;
+        margin-left: auto;
+        margin-top: 11px;
+        clear: none;
+        width: 64.610362%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-right: auto;
+   }
+
+   #image {
+        float: left;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0.059678%;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+   }
+}
+
